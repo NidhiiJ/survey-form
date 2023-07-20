@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="formdiv">
+        <p id="counter"></p>
+        <form id="form1" class="form ">
+            <h4>1. How satisfied are you with our products?</h4>
+            <div class="radioButtons">
+            <input type="radio" name="a" value="1"></input>
+            <input type="radio" name="a" value="2"></input>
+            <input type="radio" name="a" value="3"></input>
+            <input type="radio" name="a" value="4"></input>
+            <input type="radio" name="a" value="5"></input>
+            </div>
+            <br>
+            <div class="buttonWrap">
+            <button id="prev1" type="button" >prev</button>
+            <button id="next1" onclick="" type='button'>Next</button>
+            </div>
+            <p id="resulta"></p>
+        </form>
+    
+        <form id="form2" class="form">
+            <h4>2. How fair are the prices compared to similar retailers?</h4>
+            <div class="radioButtons">
+            <input type="radio" name="b" value="1"></input>
+            <input type="radio" name="b" value="2"></input>
+            <input type="radio" name="b" value="3"></input>
+            <input type="radio" name="b" value="4"></input>
+            <input type="radio" name="b" value="5"></input>
+            </div>
+            <br>
+            <div class="buttonWrap">
+                <button id="prev2" type="button" >prev</button>
+                <button id="next2" type='button'>Next</button>
+            </div>
+            <p id="resultb"></p>
+        </form>
+    
+        <form id="form3" class="form">
+            <h4>3. How satisfied are you with the value for money of your purchase? </h4>
+            <div class="radioButtons">
+            <input type="radio" name="c" value="1"></input>
+            <input type="radio" name="c" value="2"></input>
+            <input type="radio" name="c" value="3"></input>
+            <input type="radio" name="c" value="4"></input>
+            <input type="radio" name="c" value="5"></input>
+            </div>
+            <br>
+            <div class="buttonWrap">
+            <button id="prev3" type="button" >prev</button>
+            <button id="next3" type='button'>Next</button>
+            </div>
+            <p id="resultc"></p>
+        </form>
+    
+        <form id="form4" class="form">
+            <h4>4. On a scale of 1-10 how would you recommend us to your friends and family?</h4>
+            <div class="radioButtons">
+            <input type="radio" name="d" value="1"></input>
+            <input type="radio" name="d" value="2"></input>
+            <input type="radio" name="d" value="3"></input>
+            <input type="radio" name="d" value="4"></input>
+            <input type="radio" name="d" value="5"></input>
+            <input type="radio" name="d" value="6"></input>
+            <input type="radio" name="d" value="7"></input>
+            <input type="radio" name="d" value="8"></input>
+            <input type="radio" name="d" value="9"></input>
+            <input type="radio" name="d" value="10"></input>
+            </div>
+            <br>
+            <div class="buttonWrap">
+            <button id="prev4" type="button" >prev</button>
+            <button id="next4" type='button'>Next</button>
+            </div>
+            <p id="resultd"></p>
+        </form>
+    
+        <form id="form5" class="form"  action="">
+            <h4>5. What could we do to improve our service?</h4>
+            <input type="text" name="e" placeholder="enter answer here..."></input>
+            <p id="errmsg"></p>
+            <br>
+            <div class="buttonWrap">
+                <button id="prev5" type="button" >prev</button>
+                <button id="submitres" type="submit" onclick="alertPopup()">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

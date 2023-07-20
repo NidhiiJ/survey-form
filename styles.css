@@ -1,0 +1,56 @@
+body{
+    height:100%;
+    width:100%;
+    background-colour: lightblue;
+    background-image: linear-gradient(to left, #061f47 10%, #d7f3fa);
+    color: #353536;
+}
+
+.form{
+    width: full;
+    height: full;
+    padding: 5px;
+    text-align: center;
+    margin: auto ;
+    display: none;
+}
+
+.displayform{
+    display:flex;
+    flex-direction: column;
+    margin:auto
+}
+
+.formdiv{
+    display:flex;
+    width: 360px;
+    height: 400px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 8px 8px 20px -5px black
+}
+.buttonWrap{
+    display: flex;
+    justify-content:space-between;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border : none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #d7f3fa
+    
+}
+
+.radioButtons{
+    margin: 40px;
+    font-weight: bold
+}
